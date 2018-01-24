@@ -12,13 +12,17 @@ El `Ahorcado` debe proveer operaciones para:
 1. Inicializar el juego a partir de una palabra y la cantidad de chances disponibles
    inicialmente para arriesgar letras.
    
-2. Conocer la cantidad de chances restantes para arriesgar una letra que no
+2. Conocer la cantidad de chances restantes para arriesgar una letra que no 
    exista en la palabra.
    
 3. Conocer la palabra, enmascarada por `_` (guión bajo) en aquellas letras
    desconocidas.
    
 4. Arriesgar una letra.
+
+5. Consultar las letras arriesgadas en el orden arriesgado. 
+
+6. Consultar las letras aún no arriesgadas ordenadas alfabéticamente.
    
 ## Solución
 
