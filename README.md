@@ -7,6 +7,8 @@ en el que el objetivo es adivinar una palabra o frase.
 
 ![Ahorcado][ahorcado]
 
+### Parte I
+
 El `Ahorcado` debe proveer operaciones para:
 
 1. Inicializar el juego a partir de una palabra y la cantidad de chances disponibles
@@ -20,11 +22,19 @@ El `Ahorcado` debe proveer operaciones para:
    
 4. Arriesgar una letra.
 
+### Parte II
+
 5. Consultar las letras arriesgadas en el orden arriesgado. 
 
 6. Consultar las letras aún no arriesgadas ordenadas alfabéticamente.
-   
-## Solución
 
 
+## Resolución 
+
+### Parte I
+
+ * [`Ahorcado`](src/colecciones/Ahorcado.java)
+ 
+ * [`AhorcadoTest`](src/colecciones/AhorcadoTest.java)
+ 
 [ahorcado]: http://upload.wikimedia.org/wikipedia/commons/5/5f/Ahoracado_%28juego%29_-_2.gif "Ahorcado"
